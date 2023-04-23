@@ -42,3 +42,8 @@ go run main.go wget https://www.brandeis.edu/student-affairs -d ../tmp
 ```
 sh test.sh
 ```
+
+## Further Improvement
+
+- [ ] Adding a maximum number of worker that can process the webpage instead of creating workers based on the number of child links on each page
+- [ ] Processing of same link in parallel can be avoided if duplicate link is found
